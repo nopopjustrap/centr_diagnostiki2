@@ -86,7 +86,10 @@ nav.menu a:hover{opacity:1; color:var(--yellow);}
 
 /* ===== HERO ===== */
 .hero{
-  background:var(--navy);
+  background:
+    linear-gradient(90deg, rgba(8,18,40,.95) 0%, rgba(11,28,56,.84) 43%, rgba(12,33,64,.52) 72%, rgba(8,22,47,.7) 100%),
+    linear-gradient(0deg, rgba(8,18,40,.68), transparent 52%),
+    url('images/hero-chess.jpg') center 42% / cover no-repeat;
   color:var(--white);
   min-height:820px;
   padding:132px 6vw 42px;
@@ -410,6 +413,6 @@ footer{
   }
 }
 @media (max-width: 760px){
-  .hero{padding:99px 6vw 27px;}.hero-copy h1{font-size:45px;}.hero-copy p.sub{font-size:16px;}.hero-stage{min-height:315px;}.hero-stage p{left:20px;bottom:19px;}.hero-stage-line{top:18px;right:18px;}.hero-metrics{grid-template-columns:1fr 1fr;}.metric{min-height:88px;padding:13px 12px;}.metric .cap{font-size:10px;}.footer-checklist{display:block;padding:22px;}.footer-checklist .btn{margin-top:20px;width:100%;}
+  .hero{padding:99px 6vw 27px;background-position:center,center,64% center;background-size:cover,cover,auto 100%;}.hero-copy h1{font-size:45px;}.hero-copy p.sub{font-size:16px;}.hero-stage{min-height:315px;}.hero-stage p{left:20px;bottom:19px;}.hero-stage-line{top:18px;right:18px;}.hero-metrics{grid-template-columns:1fr 1fr;}.metric{min-height:88px;padding:13px 12px;}.metric .cap{font-size:10px;}.footer-checklist{display:block;padding:22px;}.footer-checklist .btn{margin-top:20px;width:100%;}
   section{ padding:64px 6vw; }
 }
